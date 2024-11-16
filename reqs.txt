@@ -1,0 +1,5 @@
+fastapi==0.115.5
+pydantic==1.10.9
+uvicorn==0.32.0
+rasa==3.6.20
+rasa-sdk==3.6.2
