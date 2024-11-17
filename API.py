@@ -6,7 +6,7 @@ import asyncio
 app = FastAPI()
 
 # Load the Rasa model
-agent = Agent.load("20241113-104357-bone-chalet.tar.gz")  # Replace with the path to your Rasa model file
+agent = Agent.load("20241117-150918-cyan-bandwidth.tar.gz")  # Replace with the path to your Rasa model file
 
 # Define the request body
 class MessageRequest(BaseModel):
