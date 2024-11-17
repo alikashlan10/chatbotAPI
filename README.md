@@ -23,4 +23,21 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-repo-url.git
 cd your-repo-directory
+```
+---
+
+### 2. Install dependencies
+```bash
+pip install -r reqs.txt
+```
+---
+
+### 3. Start the server
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+replace "8000" to specify your desired port 
+
+
+
 
