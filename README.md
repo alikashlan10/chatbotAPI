@@ -23,3 +23,9 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-repo-url.git
 cd your-repo-directory
+
+
+### 2. install depandencies
+
+```bash
+pip install -r reqs.txt
