@@ -36,6 +36,46 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 replace "8000" to specify your desired port 
 
+---
+
+## Docker
+
+### you can find the docker image in the following repository in docker hub 
+```txt
+https://hub.docker.com/repository/docker/alio141/chatbot/general
+```
+
+### Clone docker image
+```bash
+docker pull alio141/chatbot
+```
+
+### Run docker image
+
+to run docker image properly and start the server you can use the following command
+
+```bash
+docker run -p 4000:8000 alio141/chatbot
+```
+you can replace port "4000" with your desired port to host the server
+
+---
+
+## Endpoints
+
+this server has only one post endpoint that communicates with the chatbot
+
+```txt
+http://localhost:4000/chatbot/
+```
+
+Ensure the JSON payload matches the expected format
+```json
+{
+    "message": "Your message here"
+}
+
+```
 
 
 
